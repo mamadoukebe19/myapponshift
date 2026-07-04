@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">⚡ MyApp</div>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="btn-nav">Get Started</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">🚀 Deployed on OpenShift</span>
+      <h1>Build. Ship. <span class="highlight">Scale.</span></h1>
+      <p>A modern containerized application running on Docker & OpenShift. Fast, reliable, and production-ready.</p>
+      <div class="hero-buttons">
+        <a href="#features" class="btn-primary">Explore Features</a>
+        <a href="#about" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+      <div class="card-float">
+        <p>🐳 Docker</p>
+        <p>☸️ OpenShift</p>
+        <p>🌐 nginx</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <h2>Why MyApp?</h2>
+    <p class="section-sub">Everything you need to deploy with confidence.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🐳</div>
+        <h3>Containerized</h3>
+        <p>Packaged with Docker for consistent environments across dev, staging, and production.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">☸️</div>
+        <h3>OpenShift Ready</h3>
+        <p>Configured to run securely on OpenShift with non-root permissions and proper port bindings.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Blazing Fast</h3>
+        <p>Served by nginx on Alpine Linux — minimal footprint, maximum performance.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔒</div>
+        <h3>Secure by Default</h3>
+        <p>Runs as a non-root user with restricted security context for enterprise-grade safety.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About This App</h2>
+      <p>This application demonstrates a complete containerization workflow — from writing a Dockerfile to deploying on an enterprise Kubernetes platform like OpenShift.</p>
+      <ul class="about-list">
+        <li>✅ Static site served via nginx</li>
+        <li>✅ Docker image built from Alpine base</li>
+        <li>✅ OpenShift SCC compliant</li>
+        <li>✅ Exposed via OpenShift Route</li>
+      </ul>
+    </div>
+    <div class="about-stack">
+      <div class="stack-item">🐳 Docker</div>
+      <div class="stack-item">☸️ OpenShift</div>
+      <div class="stack-item">🌐 nginx</div>
+      <div class="stack-item">🏔️ Alpine Linux</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>⚡ MyApp &mdash; Built with Docker & OpenShift</p>
+    <p class="footer-sub">© 2025 MyApp. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
